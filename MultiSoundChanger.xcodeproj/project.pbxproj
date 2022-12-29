@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4743EFAB1E91493B0032F5AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4743EFAA1E91493B0032F5AA /* AppDelegate.swift */; };
 		6985C6FE251951F8003C2FDB /* OSD.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6985C6FD251951F8003C2FDB /* OSD.framework */; };
-        D914CAC52698095C00FB55D2 /* SimplyCoreAudio in Frameworks */ = {isa = PBXBuildFile; productRef = D914CAC42698095C00FB55D2 /* SimplyCoreAudio */; };
+    D914CAC52698095C00FB55D2 /* SimplyCoreAudio in Frameworks */ = {isa = PBXBuildFile; productRef = D914CAC42698095C00FB55D2 /* SimplyCoreAudio */; };
 		E4FFDC0757FD125F92CC0F62 /* Pods_MultiSoundChanger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C34C05E9BD81D579A0C4957 /* Pods_MultiSoundChanger.framework */; };
 		F312C54E25B3741C00205846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F373D8C02561D24600642274 /* Main.storyboard */; };
 		F312C55025B3742200205846 /* Volume.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F373D8BC2561D22000642274 /* Volume.storyboard */; };
@@ -450,7 +450,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -505,7 +505,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -594,7 +594,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
 /* Begin XCRemoteSwiftPackageReference section */
 		D914CAC32698095C00FB55D2 /* XCRemoteSwiftPackageReference "SimplyCoreAudio" */ = {
 			isa = XCRemoteSwiftPackageReference;

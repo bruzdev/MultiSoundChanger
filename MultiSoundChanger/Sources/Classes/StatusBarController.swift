@@ -42,8 +42,7 @@ final class StatusBarControllerImpl: StatusBarController {
     
     init(audioManager: AudioManager, simplyCoreAudio: SimplyCoreAudio) {
         self.audioManager = audioManager
-        self.simplyCA = simplyCoreAudio
-        
+        self.simplyCA = simplyCoreAudio        
         self.volumeController = Stories.volume.controller(VolumeViewController.self)
         self.volumeController.audioManager = audioManager
         self.volumeController.statusBarController = self
@@ -139,6 +138,7 @@ final class StatusBarControllerImpl: StatusBarController {
     }
     
     private func setOutputDeviceList(for menu: NSMenu) {
+
         let devices = simplyCA.allOutputDevices
         
         let defaultDevice = simplyCA.defaultOutputDevice

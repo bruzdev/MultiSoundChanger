@@ -10,6 +10,7 @@ import Foundation
 import MediaKeyTap
 import SimplyCoreAudio
 
+
 // MARK: - Protocols
 
 protocol ApplicationController: class {
