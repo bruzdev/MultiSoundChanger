@@ -15,7 +15,6 @@ enum Logger {
         case warning = "🟠"
         case error = "🔴"
     }
-    
     private enum Symbol: String {
         case newLine = "\n"
     }
